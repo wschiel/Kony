@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:medications xmlns:ns1="http://www.inventrio.com/1/Medication">
+	<ns3:medication xmlns:ns1="http://www.w3.org/1999/xlink"
+		xmlns:ns2="http://www.w3.org/2000/10/xlink-ns" xmlns:ns3="http://www.inventrio.com/1/Medication"
+		xmlns:ns4="http://www.inventrio.com/1/MedicationTypes">
+		<ns3:MedicationReference id="2c908a8b3340c473013340d56b480007"
+			ns2:href="https://localhost:7103/medication/2c908a8b3340c473013340d56b480007"
+			nickname="Atenolol" name="Atenolol" drugId="50858"
+			patient="2c908a8a3340c390013340d55efc000c" />
+		<ns3:Id>2c908a8b3340c473013340d56b480007</ns3:Id>
+		<ns3:PatientId>2c908a8a3340c390013340d55efc000c</ns3:PatientId>
+		<ns3:DrugId>50858</ns3:DrugId>
+		<ns3:Name>Atenolol</ns3:Name>
+		<ns3:Nickname>Atenolol</ns3:Nickname>
+		<ns3:ConditionOrSymptoms>high blood pressure</ns3:ConditionOrSymptoms>
+		<ns3:DosageDirections>Take twice daily</ns3:DosageDirections>
+		<ns3:Refills>25</ns3:Refills>
+		<ns3:PrescribedBy>Brandons Doctor</ns3:PrescribedBy>
+		<ns3:PrescribedOn>2011-09-03T18:00:07Z</ns3:PrescribedOn>
+		<ns3:CreatedOn>2011-09-03T18:00:07Z</ns3:CreatedOn>
+		<ns3:ReporterPolicyHistoryReference
+			medicationId="2c908a8b3340c473013340d56b480007" />
+		<ns3:StatusHistoryReference
+			ns2:href="https://localhost:7103/medication/2c908a8b3340c473013340d56b480007/status"
+			medicationId="2c908a8b3340c473013340d56b480007" />
+		<ns3:FillingHistoryReference
+			ns2:href="https://localhost:7103/medication/2c908a8b3340c473013340d56b480007/filling"
+			medicationId="2c908a8b3340c473013340d56b480007" />
+		<ns3:DoseSchedule>
+			<ns3:ScheduledDose>
+				<ns4:Id>11</ns4:Id>
+				<ns4:Quantity>1</ns4:Quantity>
+				<ns4:LocalTimeOfDay>
+					<ns4:Hour>19</ns4:Hour>
+					<ns4:Minute>0</ns4:Minute>
+				</ns4:LocalTimeOfDay>
+				<ns4:Timezone>America/New_York</ns4:Timezone>
+				<ns4:EffectiveStartDate>2011-09-03T19:00:07Z</ns4:EffectiveStartDate>
+				<ns4:EffectiveEndDate>2015-09-15T18:00:07Z</ns4:EffectiveEndDate>
+				<ns3:ScheduledDoseReference id="11"
+					ns2:href="https://localhost:7103/medication/2c908a8b3340c473013340d56b480007/schedule/11" />
+			</ns3:ScheduledDose>
+		</ns3:DoseSchedule>
+		<ns3:DoseHistoryReference
+			ns2:href="https://localhost:7103/medication/2c908a8b3340c473013340d56b480007/dose"
+			medicationId="2c908a8b3340c473013340d56b480007" />
+	</ns3:medication>
+</ns1:medications>
